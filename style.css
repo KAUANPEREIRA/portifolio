@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.fundo{
+    background-image: url('pexels-danny-meneses-943096.png' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width:100%;
+    height: 600px;
+    
+}
+
+nav span{
+    text-transform: uppercase;
+    font-weight:500;
+    color:	#F5F5F5;
+    font-size: 18px;
+    color:white;
+    padding: 10px;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    display:inline-flex;
+    color:white;
+    margin-left: 10px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: 600;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    
+    
+}
+/* aqui se encerra meu cabeçalho*/
+
+.servicos{
+    width: 100%;
+    height: 700px;
+    background-color: 	#1C1C1C;
+}
+
+.container{
+    width:1140px;
+    display: flex;
+   justify-content: center;
+   margin: auto;
+  
+}
+
+
+.tracinho{
+    width:60px;
+    height: 3px;
+    background-color:white;
+    margin-top: 55px;
+    margin-left: -90px;
+  
+}
+
+.ser{
+    color:white;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo2{
+  display: flex;
+  justify-content: center;
+}
+
+.one {
+    background-color:#363636bb;
+    width: 300px;
+    height: 400px;
+    margin-left: 6px;
+}
+.two {
+    background-color:#363636bb;
+    width: 300px;
+    height: 400px;
+    margin-left: 6px;
+}
+.tree{
+        background-color:#363636bb;
+        width: 300px;
+        height: 400px;
+        margin-left: 6px;
+    
+}
+.trabalhos{
+    display: flex;
+    margin-top: 35px;
+}
+
+#celular{
+   margin-left: 25%;
+   margin-top:20px;
+}
+
+
+
+
+@media screen and (max-width:450px){
+
+    body{
+        width:450px;
+    }
+    .container{
+        width:450px;
+    }
+
+    .trabalhos{
+        flex-direction: column;
+    }
+
+    .servicos{
+        height: auto;
+    }
+
+    .one{
+        margin-bottom: 10px;
+    }
+
+    .two{
+        margin-bottom: 10px;
+    }
+    .tree{
+        margin-bottom: 10px;
+    }
+}
