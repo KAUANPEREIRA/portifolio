@@ -179,10 +179,10 @@ nav ul li{
 @media screen and (max-width:700px){
 
     body{
-        width:450px;
+        width:auto;
     }
     .container{
-        width:450px;
+        width:auto;
     }
 
     .trabalhos{
@@ -194,7 +194,7 @@ nav ul li{
         
     }
     .projetos{
-        width:450px;
+        width:auto;
     }
 
     .one{
@@ -218,9 +218,9 @@ nav ul li{
 
     .project{
         background-color: #363636;
-        width: 450px;
         height: auto;
         margin-bottom: 135px;
+        width:auto;
     }
     .clinica{
         margin-left: 70px;
