@@ -313,7 +313,7 @@ a{
     }
 
     .sobre{
-        width:370px;
+        width:auto;
         margin-top: -400px;
         height: auto;
     }
