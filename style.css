@@ -166,6 +166,7 @@ nav ul li{
       
 }
 
+
 .clinica{
     margin-top: 50px;
     width:300px;
@@ -229,7 +230,13 @@ nav ul li{
         margin-left: 10px;
        
     }
+    .ser{
+        margin-left: -110px;
+    }
 
+    .tracinho{
+        margin-left: -111px;
+    }
  
  
 }
