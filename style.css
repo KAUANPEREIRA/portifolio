@@ -184,6 +184,7 @@ nav ul li{
     }
     .container{
         width:auto;
+        align-items: center;
     }
 
     .trabalhos{
@@ -198,6 +199,9 @@ nav ul li{
     }
     .projetos{
         width:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .one{
