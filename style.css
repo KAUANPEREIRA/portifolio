@@ -188,6 +188,8 @@ nav ul li{
 
     .trabalhos{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .servicos{
