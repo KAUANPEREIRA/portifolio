@@ -176,6 +176,50 @@ nav ul li{
     
 }
 
+.sobre{
+    width:550px;
+    height: 250px;
+    background-color: #363636bb;
+    border-radius: 10px;
+    box-shadow: 5px 1px 10px black;
+    
+}
+.eu{
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 25px;
+   
+    color: white;
+  letter-spacing: 1.3px;
+
+}
+
+.git{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    
+    background-color: #363636bb;
+    border-radius: 10px;
+    box-shadow: 5px 1px 10px black;
+    color: white;
+
+}
+.hub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ .texto{
+    margin:auto;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
 
 @media screen and (max-width:700px){
 
@@ -266,6 +310,19 @@ nav ul li{
  
     .tracinhoo{
         margin-left: -100px;
+    }
+
+    .sobre{
+        width:400px;
+        margin-top: -400px;
+    }
+
+    .hub{
+        height: 700px;
+    }
+
+    .eu{
+        margin-top: 1px;
     }
 
     
