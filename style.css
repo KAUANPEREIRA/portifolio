@@ -202,6 +202,16 @@ nav ul li{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 2000px;
+    }
+    .project{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pro .container{
+        background-color: #363636;
     }
 
     .one{
