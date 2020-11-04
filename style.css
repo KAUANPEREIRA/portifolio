@@ -311,6 +311,13 @@ a{
     .tracinhoo{
         margin-left: -100px;
     }
+    .tracinhooo{
+        margin-left: -80px;
+        width:60px;
+        height: 3px;
+        background-color:white;
+        margin-top: 55px;
+    }
 
     .sobre{
         width:250px;
