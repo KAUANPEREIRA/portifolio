@@ -201,21 +201,24 @@ nav ul li{
     .one{
        text-align: center;
        margin-bottom: 10px;
-        
+       margin-left: 70px;
         height: 300px;
     }
 
     .two{
        text-align: center;
        margin-bottom: 10px;
-        
+       margin-left: 70px;
         height: 300px;
     }
     .tree{
         text-align: center;
         margin-bottom: 10px;
         
+        margin-left: 70px;
         height: 300px;
+        
+        
     }
 
     .titulo{
