@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click",function(){
+                if(document.querySelector(".menu nav ul").style.display=='flex'){
+                    document.querySelector(".menu nav ul").style.display='none'
+                }else{
+                    document.querySelector(".menu nav ul").style.display='flex'
+                }
+            })
+        }
+        </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         
         <div class="fundo">
+            
             <nav>
                 <span>Front end Developer</span>
-                <ul>
+                <ul class="sumir">
                     <b><li>Serviços</li></b>
-                    <b> <li>project</li></b>
-                    <b><li>about</li></b>
+                    <b> <li>projetos</li></b>
+                    <b><li>contato</li></b>
                 </ul>
     
             </nav>
