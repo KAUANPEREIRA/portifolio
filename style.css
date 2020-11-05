@@ -375,5 +375,19 @@ li{
         background-color: #363636;
     }
     
+    .fim{
+        font-size: 20px;
+        color: white;
+    }
+    
+    ul li{
+        list-style-type: none;
+        color: white;
+        
+    }
+    li{
+        margin-top: 10px;
+        color:white;
+    }
     
 }
