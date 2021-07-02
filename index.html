@@ -1,120 +1,175 @@
  <!DOCTYPE html>
 <html lang="Pt-bR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <script type="text/javascript">
-        window.onload = function(){
-            document.querySelector(".menuMobile").addEventListener("click",function(){
-                if(document.querySelector(".menu nav ul").style.display=='flex'){
-                    document.querySelector(".menu nav ul").style.display='none'
-                }else{
-                    document.querySelector(".menu nav ul").style.display='flex'
-                }
-            })
-        }
-        </script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        
-        <div class="fundo">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click",function(){
+                    if(document.querySelector(".menu nav ul").style.display=='flex'){
+                        document.querySelector(".menu nav ul").style.display='none'
+                    }else{
+                        document.querySelector(".menu nav ul").style.display='flex'
+                    }
+                })
+            }
+            </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
             
-            <nav>
-                <span>Front end Developer</span>
-                <ul class="sumir">
-                    <b><li>Serviços</li></b>
-                    <b> <li>projetos</li></b>
-                    <b><li>contato</li></b>
-                </ul>
-    
-            </nav>
-            <div class="titulo">
-                DESENVOLVEDOR FRONT-END
-            </div>
-        </div>
-    </header>
-    
-    <section class="servicos">
-         <div class="container">
-            <h2 class="ser">SERVIÇOS</h2>
-                <div class="tracinho"></div>
+            <div class="fundo container-fluid">
                 
-         </div>
-         <div class="trabalhos container">
-            <div class="one">
-                <img id="codigo" src="codingo.png" width="150px">
-                <h3>TECNOLOGIAS</h3>
-                <p class="texto">Desenvolvimento através das melhores tecnologias disponiveis no mercado para criação do seu projeto</p>
-            </div>
-            <div class="two">
-                <img id="celular" src="celular.png" width="150px">
-                <h3>SITES RESPONSIVOS</h3>
-                <p class="texto">Criação de sites responsivos para melhore visualização  em dispositivos movéis com qualidade em todas as telas</p>
-            </div>
-            <div class="tree">
-                <img id="interface" src="interface.png" width="150px">
-                <h3>UX & UI DESIGN</h3>
-                <p class="texto">Interface e Design voltados para marca a experiencia do usuário,combinando cores e deixando seu layout o mais amigável possivel</p>
-            </div>
-         </div>
-     </section>
-     <section class="projetos">
-        <div class="container">
-            <h2 class="ser" id="p">PROJETOS</h2>
-                <div class="tracinho"></div>
-                
-         </div>
-         <div class="pro container">
-             <div class="project">
-                <a href="https://kauanpereira.github.io/paginaCap/" target="blank"><img class="clinica" src="captura (1).jpeg" width="250px" id="img1" ></a>
-
-                <a href="https://kauanpereira.github.io/hospital-center/" target="blank"><img class="clinica" src="captura (3).jpeg" width="260px"></a>
-
-               <a href="https://kauanpereira.github.io/churrascometro/" target="blank"> <img class="clinica" id="jogo" src="captura (4).jpeg" width="250px"></a>
-             </div>
-         </div>
-
-         
-         
-     
+                <nav>
+                    <span>Front end Developer</span>
+                    <ul class="sumir">
+                        <b><li>Serviços</li></b>
+                        <b> <li>projetos</li></b>
+                        <b><li>contato</li></b>
+                    </ul>
         
-     </section>
-     <section class="servicos">
-        <div class="container">
-           <h2 class="ser">SOBRE</h2>
-               <div class="tracinhooo"></div>
-               
-        </div>
-        <div class="trabalhos container hub ">
-            <div class="sobre">
-                <p class="eu">MEU NOME É KAUAN PEREIRA DOS SANTOS TENHO 19 ANOS CURSO SISTEMAS DE INFORMAÇÕES NA UNIP E BUSCO SEMPRE A MELHOR SOLUÇÃO POSSIVEL PARA SEU PROJETO COMO SITES RESPONSIVOS, DESENVOLVENDO SISTEMAS E SITES DE FORMA PRATICA E EFICIENTE PARA SEU NÉGOCIO,SEMPRE SE APERFEIÇOANDO ATRAVÉS DE ESTUDOS PARA UM MELHOR TRABALHO. </p>
-            </div><br>
-
-            <div class="git">
-               <a href="https://github.com/KAUANPEREIRA"> <p class="texto"><b>GIT HUB</b></p></a>
+                </nav>
+                <div class="titulo">
+                    DESENVOLVEDOR FRONT-END
+                </div>
             </div>
-           
-           
-        </div>
-    </section>
-    <section class="projetoos">
-        <div class="container">
-            <h2 class="ser" id="p">CONTATO</h2>
-                <div class="tracinho"></div>
+        </header>
+        
+        <section class="servicos container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="ser">SERVIÇOS</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tracinho"></div>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="trabalhos container">
+                <div class="row">
+                    <div class="col-sm-4">
+                    <div class="card border-secondary mb-3 cor" style="max-width: 18rem;">
+                        <div class="card-header"><img id="codigo" src="codingo.png" width="120px"></img></div>
+                        <div class="card-body text-secondary">
+                          <h5 class="card-title" style="color: white;">Tecnologias</h5>
+                          <p class="card-text" style="color: white;">Desenvolvimento através das melhores tecnologias disponiveis no mercado para criação do seu projeto</p>
+                        </div>
+                      </div>
+                    </div>
+                <!--
+                    <div class="col-sm-4">
+                        <div class="one">
+                            <img id="codigo" src="codingo.png" width="120px">
+                            <h3>TECNOLOGIAS</h3>
+                            <p class="texto">Desenvolvimento através das melhores tecnologias disponiveis no mercado para criação do seu projeto</p>
+                        </div>
+                    </div>
+                -->
+                    <div class="col-sm-4">
+                        <div class="card border-secondary mb-3 cor" style="max-width: 18rem;">
+                            <div class="card-header"><img id="codigo" src="codingo.png" width="120px"></img></div>
+                            <div class="card-body text-secondary">
+                              <h5 class="card-title" style="color: white;">Sites responsivos</h5>
+                              <p class="card-text" style="color: white;">Criação de sites responsivos para melhore visualização em dispositivos movéis com qualidade em todas as telas<br></p>
+                            </div>
+                          </div>
+                    </div> 
+                    <div class="col-sm-4">
+                        <div class="card border-secondary mb-3 cor" style="max-width: 18rem;">
+                            <div class="card-header"><img id="codigo" src="codingo.png" width="120px"></img></div>
+                            <div class="card-body text-secondary">
+                              <h5 class="card-title" style="color: white;">UI & UX DESIGN</h5>
+                              <p class="card-text" style="color: white;">Interface e Design voltados para marca a experiencia do usuário,combinando cores,para uma melhor experiência</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projetos">
+            <div class="container">
+                <h2 class="ser" id="p">PROJETOS</h2>
+                    <div class="tracinho"></div>
+                    
+            </div>
+            <div class="pro container">
+                <div class="row">
+                    <div class="card border-secondary mb-3 cor col-sm-4 bordas">
+                        <a href="https://kauanpereira.github.io/hospital-center/" target="blank"><img class="clinica" src="captura (3).jpeg" width="260px"></a>
+                    </div>
+                    <div class="card border-secondary mb-3 cor col-sm-4 bordas">
+                        <a href="https://kauanpereira.github.io/churrascometro/" target="blank"> <img class="clinica" id="jogo" src="captura (4).jpeg" width="250px"></a>
+                    </div>
                 
-         </div>
-         <div class="pro container rodape">
-            <p class="fim">Aqui você encontra formas de contato</p>
-            <ul>
-                <li><strong>WHATSAPP: 11 946580937</strong></li>
-                <li><strong>EMAIL:kauanauan71@gmail.com</strong></li>
-            </ul>
-         </div>
-     
-    
-    
-</body>
+                <div class="card border-secondary mb-3 cor col-sm-4 bordas" style="max-width: 18rem; ">
+                    
+                        <a href="https://kauanpereira.github.io/paginaCap/" target="blank"><img class="clinica baixo" src="captura (1).jpeg" width="250px"  ></a>
+                 </div>
+             </div>
+                
+            </div>
+            
+
+            
+            
+        
+            
+        </section>
+        <section class="servicos">
+            <div class="container">
+            <h2 class="ser" style="color: white;">SOBRE</h2>
+                <div class="tracinhooo"></div>
+                
+            </div>
+            <div class="trabalhos container hub ">
+                <div class="sobre container">
+                    <p class="eu">MEU NOME É KAUAN PEREIRA DOS SANTOS TENHO 19 ANOS CURSO SISTEMAS DE INFORMAÇÕES NA UNIP E BUSCO SEMPRE A MELHOR SOLUÇÃO POSSIVEL PARA SEU PROJETO COMO SITES RESPONSIVOS, DESENVOLVENDO SISTEMAS E SITES DE FORMA PRATICA E EFICIENTE PARA SEU NÉGOCIO,SEMPRE SE APERFEIÇOANDO ATRAVÉS DE ESTUDOS PARA UM MELHOR TRABALHO. </p>
+                </div><br>
+                <div class="row">
+                    <div class="col">
+                        <div class="git">
+                            <a href="https://github.com/KAUANPEREIRA"style="text-decoration:none;" target="_blank"> <p class="texto"><b>GIT HUB</b></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="git">
+                            <a href="https://www.linkedin.com/in/kauan-santos-9a4b85215/"style="text-decoration:none;" target="_blank"> <p class="texto"><b>LINKEDIN</b></p></a>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            </div>
+        </section>
+        <section class="projetoos">
+            <div class="container">
+                <h2 class="ser" id="p">CONTATO</h2>
+                    <div class="tracinho"></div>
+                    
+            </div>
+            <div class="pro container rodape">
+                <p class="fim">Aqui você encontra formas de contato</p>
+                <ul>
+                    <li><strong>WHATSAPP: 11 946580937</strong></li>
+                    <li><strong>EMAIL:kauanauan71@gmail.com</strong></li>
+                    <li><strong>LINKEDIN:Kauan Santos</strong></li>
+                </ul>
+            </div>
+        
+        
+        
+    </body>
 </html>
+

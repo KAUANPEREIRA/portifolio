@@ -20,6 +20,8 @@ body{
     
 }
 
+
+
 nav span{
     text-transform: uppercase;
     font-weight:500;
@@ -52,43 +54,35 @@ nav ul li{
     
     
 }
+
+
 /* aqui se encerra meu cabeçalho*/
+
 
 .servicos{
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: 	#1C1C1C;
-}
-
-.container{
-    width:1140px;
-    display: flex;
-   justify-content: center;
-   margin: auto;
-  
-}
-
-
-.tracinho{
-    width:60px;
-    height: 3px;
-    background-color:white;
-    margin-top: 55px;
-    margin-left: -90px;
-  
 }
 
 .ser{
     color:white;
     letter-spacing: 3px;
     font-weight: 600;
-    margin-top: 10px;
+
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.titulo2{
-  display: flex;
-  justify-content: center;
+.tracinho{
+    width:60px;
+    height: 3px;
+    background-color:white;
+    margin-top: 55px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+  
 }
 
 .one {
@@ -99,6 +93,7 @@ nav ul li{
     border-radius: 10px;
     box-shadow: 5px 1px 10px black;
 }
+
 .two {
     background-color:#363636bb;
     width: 300px;
@@ -107,38 +102,41 @@ nav ul li{
     border-radius: 10px;
      box-shadow: 5px 1px 10px black;
 }
+
 .tree{
-        background-color:#363636bb;
-        width: 300px;
-        height: 400px;
-        margin-left: 6px;
-        border-radius: 10px;
-        box-shadow: 5px 1px 10px black;
-    
-}
-.trabalhos{
-    display: flex;
-    margin-top: 35px;
+    background-color:#363636bb;
+    width: 300px;
+    height: 400px;
+    margin-left: 6px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 10px black;
+
 }
 
 #celular,#codigo,#interface{
-   margin-left: 25%;
-   margin-top:20px;
-}
- h3{
-     text-align: center;
-     color:#ffffff
+    margin-left: 25%;
+    margin-top:20px;
  }
 
  .texto{
-     text-align: center;
-     margin-top:10px;
-     margin-left: 5px;
-     color:white;
-     font-weight: 500;
-     padding: 10px;
- }
+    text-align: center;
+    margin-top:10px;
+    margin-left: 5px;
+    color:white;
+    font-weight: 500;
+    padding: 10px;
+}
 
+h3{
+    text-align: center;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    
+}
+
+/*area de projetos */
 .projetos{
     width:100%;
     height: 700px;
@@ -154,26 +152,17 @@ nav ul li{
   
 }
 
-/*area de projetos*/
-.pro{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.project{
-   
-    margin-right: 1px;  
-      
+.bordas{
+    border-style: none;
 }
 
 
 .clinica{
-    margin-top: 50px;
-    width:300px;
+   
+    
     height: 500px;
     border-radius: 10px;
-    margin-right: 10px;
+    
     
 }
 
@@ -185,6 +174,7 @@ nav ul li{
     box-shadow: 5px 1px 10px black;
     
 }
+
 .eu{
     font-size: 17px;
     padding: 10px;
@@ -204,29 +194,59 @@ nav ul li{
     border-radius: 10px;
     box-shadow: 5px 1px 10px black;
     color: white;
+    margin-top: 8px;
 
 }
+
 .hub{
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
- .texto{
+
+a{
+    text-decoration:none;
+}
+b{
+    text-decoration: none;
+}
+
+.texto{
     margin:auto;
    
 }
 
-a{
-    text-decoration: none;
-}
+
 .tracinhooo{
-    margin-left: -80px;
+    text-align: center;
     width:60px;
     height: 3px;
     background-color:white;
     margin-top: 55px;
+    margin:auto;
+    margin-bottom: 25px;
 }
+
+
+.projetoos{
+    width:100%;
+    height: 270px;
+    background-color: #363636;
+}
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+  
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+
+}
+
+
 .fim{
     font-size: 20px;
     color: white;
@@ -252,27 +272,37 @@ li{
     
 }
 
-.projetoos{
-    width:100%;
-    height: 270px;
-    background-color: #363636;
+.cor{
+    background-color: #363636BB;
+    color: white;
 }
-.menuMobile{
-    display: none;
-    width: 40px;
-    height: 40px;
+
+
+
+
+/*
+
+.container{
+    width:1140px;
+    display: flex;
+   justify-content: center;
+   margin: auto;
   
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-    border-radius: 20px;
+}*/
 
-}
 
-@media screen and (max-width:700px){
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
 
     body{
         width:auto;
+        overflow-x: hidden;
     }
     .container{
         width:auto;
@@ -294,7 +324,7 @@ li{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 1800px;
+        height: 1700px;
         padding: 1px;
     }
     .project{
@@ -303,8 +333,10 @@ li{
         flex-direction: column;
     }
 
-    .pro .container{
+    .pro{
         background-color: #363636;
+
+        height: 100px;
     }
 
     .one{
@@ -353,23 +385,19 @@ li{
     }
 
     .tracinho{
-        margin-left: -100px;
+        display: none;
     }
  
     .tracinhoo{
-        margin-left: -100px;
+        display: none;
     }
     .tracinhooo{
-        margin-left: -80px;
-        width:60px;
-        height: 3px;
-        background-color:white;
-        margin-top: 55px;
+       display:none;
     }
 
     .sobre{
         width:250px;
-        margin-top: -270px;
+        margin-top: -70px;
         height: auto;
     }
 
@@ -378,7 +406,8 @@ li{
     }
 
     .eu{
-        margin-top: 1px;
+        margin-top: 40px;
+        font-size:16px;
     }
 
     .projetoos{
@@ -388,8 +417,9 @@ li{
     }
     
     .fim{
-        font-size: 20px;
+        font-size: 14px;
         color: white;
+        
     }
     
     ul li{
@@ -404,4 +434,17 @@ li{
     .sumir{
         display: none;
     }
+}
+
+
+
+
+
+@media (min-width: 765px) and (max-width:1030px) { 
+
+ section.projeto{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+ }
 }
