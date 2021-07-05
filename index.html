@@ -9,7 +9,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script type="text/javascript">
-            window.onload = function(){
+            window.onload = function abrir(){
                 document.querySelector(".menuMobile").addEventListener("click",function(){
                     if(document.querySelector(".menu nav ul").style.display=='flex'){
                         document.querySelector(".menu nav ul").style.display='none'
@@ -29,12 +29,28 @@
                 <nav>
                     <span>Front end Developer</span>
                     <ul class="sumir">
-                        <b><li>Serviços</li></b>
-                        <b> <li>projetos</li></b>
-                        <b><li>contato</li></b>
+                        <b><li><a href="#servicos">Serviços</a></li></b>
+                        <b> <li><a href="#projetos">Projetos</a><li></b>
+                        <b><li><a href="#contato">Contato</a></li></b>
                     </ul>
+                    <div class="menu">
+                        <div class="menuMobile" onclick="abrir()">
+                            <div class="mm"></div>
+                            <div class="mm"></div>
+                            <div class="mm"></div>
+        
+                        </div>
+                    </div>
+                    <nav>
+                        <ul id="lista" style="display: none;">
+                            <li>Serviços</li>
+                            <li>projetos</li>
+                            <li>contato</li>
+                        </ul>
+                    </nav>
         
                 </nav>
+                
                 <div class="titulo">
                     DESENVOLVEDOR FRONT-END
                 </div>
@@ -55,7 +71,7 @@
                 </div>
                     
             </div>
-            <div class="trabalhos container">
+            <div class="trabalhos container" id="servicos">
                 <div class="row">
                     <div class="col-sm-4">
                     <div class="card border-secondary mb-3 cor" style="max-width: 18rem;">
@@ -77,7 +93,7 @@
                 -->
                     <div class="col-sm-4">
                         <div class="card border-secondary mb-3 cor" style="max-width: 18rem;">
-                            <div class="card-header"><img id="codigo" src="codingo.png" width="120px"></img></div>
+                            <div class="card-header"><img id="codigo" src="celular.png" width="120px"></img></div>
                             <div class="card-body text-secondary">
                               <h5 class="card-title" style="color: white;">Sites responsivos</h5>
                               <p class="card-text" style="color: white;">Criação de sites responsivos para melhore visualização em dispositivos movéis com qualidade em todas as telas<br></p>
@@ -86,7 +102,7 @@
                     </div> 
                     <div class="col-sm-4">
                         <div class="card border-secondary mb-3 cor" style="max-width: 18rem;">
-                            <div class="card-header"><img id="codigo" src="codingo.png" width="120px"></img></div>
+                            <div class="card-header"><img id="codigo" src="interface.png" width="120px"></img></div>
                             <div class="card-body text-secondary">
                               <h5 class="card-title" style="color: white;">UI & UX DESIGN</h5>
                               <p class="card-text" style="color: white;">Interface e Design voltados para marca a experiencia do usuário,combinando cores,para uma melhor experiência</p>
@@ -102,18 +118,18 @@
                     <div class="tracinho"></div>
                     
             </div>
-            <div class="pro container">
+            <div class="pro container" id="projetos">
                 <div class="row">
                     <div class="card border-secondary mb-3 cor col-sm-4 bordas">
-                        <a href="https://kauanpereira.github.io/hospital-center/" target="blank"><img class="clinica" src="captura (3).jpeg" width="260px"></a>
+                        <a href="https://kauanpereira.github.io/hospital-center/" target="blank"><img class="clinica" src="captura (3).jpeg" width="80%"></a>
                     </div>
                     <div class="card border-secondary mb-3 cor col-sm-4 bordas">
-                        <a href="https://kauanpereira.github.io/churrascometro/" target="blank"> <img class="clinica" id="jogo" src="captura (4).jpeg" width="250px"></a>
+                        <a href="https://kauanpereira.github.io/churrascometro/" target="blank"> <img class="clinica" id="jogo" src="captura (4).jpeg" width="80%"></a>
                     </div>
                 
                 <div class="card border-secondary mb-3 cor col-sm-4 bordas" style="max-width: 18rem; ">
                     
-                        <a href="https://kauanpereira.github.io/paginaCap/" target="blank"><img class="clinica baixo" src="captura (1).jpeg" width="250px"  ></a>
+                        <a href="https://kauanpereira.github.io/paginaCap/" target="blank"><img class="clinica baixo" src="captura (1).jpeg" width="100%"></a>
                  </div>
              </div>
                 
@@ -159,7 +175,7 @@
                     <div class="tracinho"></div>
                     
             </div>
-            <div class="pro container rodape">
+            <div class="pro container rodape" id="contato">
                 <p class="fim">Aqui você encontra formas de contato</p>
                 <ul>
                     <li><strong>WHATSAPP: 11 946580937</strong></li>

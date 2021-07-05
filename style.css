@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+/* botão para dispositivos movéis*/
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 01px;
+    border-radius: 20px;
+}
+/*fim botão*/
+
+li:hover{
+    font-size: 25px;
+    color: white;
+    
+}
+a :hover{
+    color: white;
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -234,17 +266,6 @@ b{
     height: 270px;
     background-color: #363636;
 }
-.menuMobile{
-    display: none;
-    width: 40px;
-    height: 40px;
-  
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-    border-radius: 20px;
-
-}
 
 
 .fim{
@@ -277,7 +298,28 @@ li{
     color: white;
 }
 
-
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
 
 
 /*
@@ -298,7 +340,7 @@ li{
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
 
     body{
         width:auto;
@@ -421,6 +463,18 @@ li{
         color: white;
         
     }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mm {
+        height: 3px;
+        background-color: white;
+    }
+    
     
     ul li{
         list-style-type: none;
@@ -435,6 +489,8 @@ li{
         display: none;
     }
 }
+
+
 
 
 
