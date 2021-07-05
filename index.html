@@ -9,16 +9,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script type="text/javascript">
-            window.onload = function abrir(){
-                document.querySelector(".menuMobile").addEventListener("click",function(){
-                    if(document.querySelector(".menu nav ul").style.display=='flex'){
-                        document.querySelector(".menu nav ul").style.display='none'
-                    }else{
-                        document.querySelector(".menu nav ul").style.display='flex'
-                    }
-                })
-            }
-            </script>
+          
+        </script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -40,15 +32,19 @@
                             <div class="mm"></div>
         
                         </div>
-                    </div>
+                    
                     <nav>
-                        <ul id="lista" style="display: none;">
-                            <li>Serviços</li>
-                            <li>projetos</li>
-                            <li>contato</li>
-                        </ul>
+                        
+                            <ul id="lista">
+                                <b><li><a href="#servicos">Serviços</a></li></b>
+                                <b> <li><a href="#projetos">Projetos</a><li></b>
+                                <b><li><a href="#contato">Contato</a></li></b>
+                                
+                                
+                            </ul>
+                        
                     </nav>
-        
+                    </div>
                 </nav>
                 
                 <div class="titulo">
@@ -185,7 +181,21 @@
             </div>
         
         
+    <script>
+
+    
+        function abrir() {
+            let menu=document.getElementsByClassName('menuMobile')
+            let lista =document.getElementById('lista')
+            if (lista.style.display === "flex") {
+            lista.style.display = "none";
+            } else {
+            lista.style.display = "flex";
+            }
+        }
+
         
+    </script>    
     </body>
 </html>
 

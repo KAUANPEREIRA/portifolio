@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+.sumir{
+    display: none;
+}
+
+.menu ul{
+    margin-right: 10px;
+    margin-top: 34px;
+}
+
+.menu li{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    color:#727272;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+.menu li:hover{
+    background-color:turquoise;
+    color:white;
+}
+
 /* botão para dispositivos movéis*/
 
 .menuMobile {
@@ -86,6 +109,9 @@ nav ul li{
     
     
 }
+
+
+
 
 
 /* aqui se encerra meu cabeçalho*/
@@ -333,7 +359,13 @@ a:link {
 }*/
 
 
+#lista{
+    margin-top: 1px;
+}
 
+#lista :hover{
+    background-color: transparent;
+}
 
 
 
@@ -341,6 +373,17 @@ a:link {
 
 
 @media screen and (max-width:700px){
+
+    
+    #lista{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left:0px;
+        width:100%;
+        margin-top: 6px;
+        
+    }
 
     body{
         width:auto;
