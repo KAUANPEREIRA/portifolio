@@ -47,8 +47,10 @@
                     </div>
                 </nav>
                 
-                <div class="titulo typing-animation">
-                    DESENVOLVEDOR FRONT-END
+                <div class="titulo">
+                    <div>
+                        <p id="tituloo">DESENVOLVEDOR FRONT-END</p>
+                    </div>
                 </div>
             </div>
         </header>
@@ -193,6 +195,20 @@
             lista.style.display = "flex";
             }
         }
+
+        function maquinaEscrever(elemento){
+            let textoArray = elemento.innerHTML.split('')
+            elemento.innerHTML =' '
+            textoArray.forEach((letra,i)=>{
+                setTimeout(function(){
+                    elemento.innerHTML += letra
+                },75*i)
+
+            })
+        }
+
+        const titulo = document.getElementById('tituloo')
+        maquinaEscrever(titulo)
 
         
     </script>    
