@@ -40,7 +40,7 @@
 }
 /*fim botão*/
 
-li:hover{
+ #lista li:hover{
     font-size: 25px;
     color: white;
     
@@ -171,6 +171,10 @@ nav ul li{
 
 }
 
+ul li{
+    list-style: none;
+}
+
 #celular,#codigo,#interface{
     margin-left: 25%;
     margin-top:20px;
@@ -299,7 +303,7 @@ b{
     color: white;
 }
 
-ul li{
+#lista ul li{
     list-style-type: none;
     color: white;
     
@@ -373,7 +377,9 @@ a:link {
     font-size: 15px;
 }
 
-
+.borda{
+    box-shadow: 5px 1px 10px black;
+}
 
 
 @media screen and (max-width:700px){
