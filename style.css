@@ -136,6 +136,7 @@ nav ul li{
     width: 100%;
     height: 550px;
     background-color: 	#1C1C1C;
+
 }
 
 .ser{
@@ -404,6 +405,10 @@ a:link {
 
 @media screen and (max-width:700px){
 
+    .rodape{
+        height: auto;
+    }
+
     
     #lista{
         display: none;
@@ -425,13 +430,25 @@ a:link {
     }
 
     .trabalhos{
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 30px;
+        
+    }
+
+    .meuContato{
+        margin-top: 20px;
     }
 
     .servicos{
         height: auto;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         
     }
     .projetos{
@@ -439,6 +456,7 @@ a:link {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
         height: 2150px;
         padding: 1px;
     }
@@ -450,8 +468,9 @@ a:link {
 
     .pro{
         background-color: #363636;
+        margin-left: 10px;
 
-        height: 100px;
+        height: 286px;
     }
 
     .one{
@@ -497,6 +516,8 @@ a:link {
     }
     .ser{
         margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .tracinho{
@@ -511,9 +532,12 @@ a:link {
     }
 
     .sobre{
-        width:250px;
-        margin-top: -70px;
-        height: auto;
+        width:286px;
+        margin-left: 10px;
+        height: 500px;
+        margin-top: -55px;
+        
+        
     }
 
     .hub{
@@ -521,13 +545,14 @@ a:link {
     }
 
     .eu{
-        margin-top: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         font-size:16px;
     }
 
     .projetoos{
         width:100%;
-        height: 350px;
+        height:auto;
         background-color: #363636;
     }
     
